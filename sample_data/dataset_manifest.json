@@ -1,0 +1,938 @@
+[
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pizza\\pizza_001.jpg",
+    "food_class": "pizza",
+    "class_idx": 0,
+    "portion_grams": 153.4,
+    "targets": [
+      408.0,
+      16.9,
+      50.6,
+      15.3,
+      3.5
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pizza\\pizza_002.jpg",
+    "food_class": "pizza",
+    "class_idx": 0,
+    "portion_grams": 195.4,
+    "targets": [
+      519.8,
+      21.5,
+      64.5,
+      19.5,
+      4.5
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pizza\\pizza_003.jpg",
+    "food_class": "pizza",
+    "class_idx": 0,
+    "portion_grams": 142.2,
+    "targets": [
+      378.1,
+      15.6,
+      46.9,
+      14.2,
+      3.3
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pizza\\pizza_004.jpg",
+    "food_class": "pizza",
+    "class_idx": 0,
+    "portion_grams": 175.4,
+    "targets": [
+      466.7,
+      19.3,
+      57.9,
+      17.5,
+      4.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pizza\\pizza_005.jpg",
+    "food_class": "pizza",
+    "class_idx": 0,
+    "portion_grams": 153.0,
+    "targets": [
+      406.9,
+      16.8,
+      50.5,
+      15.3,
+      3.5
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pizza\\pizza_006.jpg",
+    "food_class": "pizza",
+    "class_idx": 0,
+    "portion_grams": 190.9,
+    "targets": [
+      507.7,
+      21.0,
+      63.0,
+      19.1,
+      4.4
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\burger\\burger_001.jpg",
+    "food_class": "burger",
+    "class_idx": 1,
+    "portion_grams": 187.4,
+    "targets": [
+      468.5,
+      24.4,
+      56.2,
+      22.5,
+      2.8
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\burger\\burger_002.jpg",
+    "food_class": "burger",
+    "class_idx": 1,
+    "portion_grams": 195.6,
+    "targets": [
+      489.0,
+      25.4,
+      58.7,
+      23.5,
+      2.9
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\burger\\burger_003.jpg",
+    "food_class": "burger",
+    "class_idx": 1,
+    "portion_grams": 173.2,
+    "targets": [
+      432.9,
+      22.5,
+      51.9,
+      20.8,
+      2.6
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\burger\\burger_004.jpg",
+    "food_class": "burger",
+    "class_idx": 1,
+    "portion_grams": 240.1,
+    "targets": [
+      600.2,
+      31.2,
+      72.0,
+      28.8,
+      3.6
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\burger\\burger_005.jpg",
+    "food_class": "burger",
+    "class_idx": 1,
+    "portion_grams": 212.5,
+    "targets": [
+      531.3,
+      27.6,
+      63.8,
+      25.5,
+      3.2
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\burger\\burger_006.jpg",
+    "food_class": "burger",
+    "class_idx": 1,
+    "portion_grams": 280.9,
+    "targets": [
+      702.3,
+      36.5,
+      84.3,
+      33.7,
+      4.2
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\salad\\salad_001.jpg",
+    "food_class": "salad",
+    "class_idx": 2,
+    "portion_grams": 268.8,
+    "targets": [
+      174.7,
+      6.7,
+      18.8,
+      9.4,
+      7.5
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\salad\\salad_002.jpg",
+    "food_class": "salad",
+    "class_idx": 2,
+    "portion_grams": 152.7,
+    "targets": [
+      99.2,
+      3.8,
+      10.7,
+      5.3,
+      4.3
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\salad\\salad_003.jpg",
+    "food_class": "salad",
+    "class_idx": 2,
+    "portion_grams": 195.9,
+    "targets": [
+      127.3,
+      4.9,
+      13.7,
+      6.9,
+      5.5
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\salad\\salad_004.jpg",
+    "food_class": "salad",
+    "class_idx": 2,
+    "portion_grams": 252.9,
+    "targets": [
+      164.4,
+      6.3,
+      17.7,
+      8.9,
+      7.1
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\salad\\salad_005.jpg",
+    "food_class": "salad",
+    "class_idx": 2,
+    "portion_grams": 181.7,
+    "targets": [
+      118.1,
+      4.5,
+      12.7,
+      6.4,
+      5.1
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\salad\\salad_006.jpg",
+    "food_class": "salad",
+    "class_idx": 2,
+    "portion_grams": 171.8,
+    "targets": [
+      111.6,
+      4.3,
+      12.0,
+      6.0,
+      4.8
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\biryani\\biryani_001.jpg",
+    "food_class": "biryani",
+    "class_idx": 3,
+    "portion_grams": 333.8,
+    "targets": [
+      600.8,
+      31.7,
+      73.4,
+      21.7,
+      4.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\biryani\\biryani_002.jpg",
+    "food_class": "biryani",
+    "class_idx": 3,
+    "portion_grams": 340.6,
+    "targets": [
+      613.0,
+      32.4,
+      74.9,
+      22.1,
+      4.1
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\biryani\\biryani_003.jpg",
+    "food_class": "biryani",
+    "class_idx": 3,
+    "portion_grams": 397.7,
+    "targets": [
+      715.9,
+      37.8,
+      87.5,
+      25.9,
+      4.8
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\biryani\\biryani_004.jpg",
+    "food_class": "biryani",
+    "class_idx": 3,
+    "portion_grams": 378.9,
+    "targets": [
+      682.0,
+      36.0,
+      83.4,
+      24.6,
+      4.5
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\biryani\\biryani_005.jpg",
+    "food_class": "biryani",
+    "class_idx": 3,
+    "portion_grams": 398.7,
+    "targets": [
+      717.6,
+      37.9,
+      87.7,
+      25.9,
+      4.8
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\biryani\\biryani_006.jpg",
+    "food_class": "biryani",
+    "class_idx": 3,
+    "portion_grams": 244.2,
+    "targets": [
+      439.5,
+      23.2,
+      53.7,
+      15.9,
+      2.9
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pasta\\pasta_001.jpg",
+    "food_class": "pasta",
+    "class_idx": 4,
+    "portion_grams": 294.3,
+    "targets": [
+      617.9,
+      22.1,
+      82.4,
+      23.5,
+      5.3
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pasta\\pasta_002.jpg",
+    "food_class": "pasta",
+    "class_idx": 4,
+    "portion_grams": 206.8,
+    "targets": [
+      434.4,
+      15.5,
+      57.9,
+      16.5,
+      3.7
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pasta\\pasta_003.jpg",
+    "food_class": "pasta",
+    "class_idx": 4,
+    "portion_grams": 290.5,
+    "targets": [
+      610.0,
+      21.8,
+      81.3,
+      23.2,
+      5.2
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pasta\\pasta_004.jpg",
+    "food_class": "pasta",
+    "class_idx": 4,
+    "portion_grams": 329.3,
+    "targets": [
+      691.5,
+      24.7,
+      92.2,
+      26.3,
+      5.9
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pasta\\pasta_005.jpg",
+    "food_class": "pasta",
+    "class_idx": 4,
+    "portion_grams": 201.1,
+    "targets": [
+      422.2,
+      15.1,
+      56.3,
+      16.1,
+      3.6
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\pasta\\pasta_006.jpg",
+    "food_class": "pasta",
+    "class_idx": 4,
+    "portion_grams": 296.4,
+    "targets": [
+      622.5,
+      22.2,
+      83.0,
+      23.7,
+      5.3
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\grilled_chicken\\grilled_chicken_001.jpg",
+    "food_class": "grilled_chicken",
+    "class_idx": 5,
+    "portion_grams": 163.8,
+    "targets": [
+      270.3,
+      50.8,
+      0.0,
+      5.9,
+      0.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\grilled_chicken\\grilled_chicken_002.jpg",
+    "food_class": "grilled_chicken",
+    "class_idx": 5,
+    "portion_grams": 176.2,
+    "targets": [
+      290.7,
+      54.6,
+      0.0,
+      6.3,
+      0.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\grilled_chicken\\grilled_chicken_003.jpg",
+    "food_class": "grilled_chicken",
+    "class_idx": 5,
+    "portion_grams": 138.5,
+    "targets": [
+      228.5,
+      42.9,
+      0.0,
+      5.0,
+      0.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\grilled_chicken\\grilled_chicken_004.jpg",
+    "food_class": "grilled_chicken",
+    "class_idx": 5,
+    "portion_grams": 137.2,
+    "targets": [
+      226.4,
+      42.5,
+      0.0,
+      4.9,
+      0.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\grilled_chicken\\grilled_chicken_005.jpg",
+    "food_class": "grilled_chicken",
+    "class_idx": 5,
+    "portion_grams": 150.2,
+    "targets": [
+      247.9,
+      46.6,
+      0.0,
+      5.4,
+      0.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\grilled_chicken\\grilled_chicken_006.jpg",
+    "food_class": "grilled_chicken",
+    "class_idx": 5,
+    "portion_grams": 143.2,
+    "targets": [
+      236.4,
+      44.4,
+      0.0,
+      5.2,
+      0.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sushi\\sushi_001.jpg",
+    "food_class": "sushi",
+    "class_idx": 6,
+    "portion_grams": 192.7,
+    "targets": [
+      279.4,
+      12.5,
+      46.3,
+      5.4,
+      1.9
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sushi\\sushi_002.jpg",
+    "food_class": "sushi",
+    "class_idx": 6,
+    "portion_grams": 192.5,
+    "targets": [
+      279.2,
+      12.5,
+      46.2,
+      5.4,
+      1.9
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sushi\\sushi_003.jpg",
+    "food_class": "sushi",
+    "class_idx": 6,
+    "portion_grams": 261.2,
+    "targets": [
+      378.8,
+      17.0,
+      62.7,
+      7.3,
+      2.6
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sushi\\sushi_004.jpg",
+    "food_class": "sushi",
+    "class_idx": 6,
+    "portion_grams": 181.7,
+    "targets": [
+      263.5,
+      11.8,
+      43.6,
+      5.1,
+      1.8
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sushi\\sushi_005.jpg",
+    "food_class": "sushi",
+    "class_idx": 6,
+    "portion_grams": 150.5,
+    "targets": [
+      218.3,
+      9.8,
+      36.1,
+      4.2,
+      1.5
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sushi\\sushi_006.jpg",
+    "food_class": "sushi",
+    "class_idx": 6,
+    "portion_grams": 246.5,
+    "targets": [
+      357.4,
+      16.0,
+      59.2,
+      6.9,
+      2.5
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\dosa\\dosa_001.jpg",
+    "food_class": "dosa",
+    "class_idx": 7,
+    "portion_grams": 204.4,
+    "targets": [
+      337.3,
+      8.2,
+      55.2,
+      9.2,
+      4.3
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\dosa\\dosa_002.jpg",
+    "food_class": "dosa",
+    "class_idx": 7,
+    "portion_grams": 140.0,
+    "targets": [
+      231.0,
+      5.6,
+      37.8,
+      6.3,
+      2.9
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\dosa\\dosa_003.jpg",
+    "food_class": "dosa",
+    "class_idx": 7,
+    "portion_grams": 240.5,
+    "targets": [
+      396.9,
+      9.6,
+      64.9,
+      10.8,
+      5.1
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\dosa\\dosa_004.jpg",
+    "food_class": "dosa",
+    "class_idx": 7,
+    "portion_grams": 166.7,
+    "targets": [
+      275.1,
+      6.7,
+      45.0,
+      7.5,
+      3.5
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\dosa\\dosa_005.jpg",
+    "food_class": "dosa",
+    "class_idx": 7,
+    "portion_grams": 143.7,
+    "targets": [
+      237.1,
+      5.7,
+      38.8,
+      6.5,
+      3.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\dosa\\dosa_006.jpg",
+    "food_class": "dosa",
+    "class_idx": 7,
+    "portion_grams": 226.6,
+    "targets": [
+      373.9,
+      9.1,
+      61.2,
+      10.2,
+      4.8
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\fruit_bowl\\fruit_bowl_001.jpg",
+    "food_class": "fruit_bowl",
+    "class_idx": 8,
+    "portion_grams": 198.9,
+    "targets": [
+      103.4,
+      1.6,
+      25.9,
+      0.4,
+      4.8
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\fruit_bowl\\fruit_bowl_002.jpg",
+    "food_class": "fruit_bowl",
+    "class_idx": 8,
+    "portion_grams": 200.6,
+    "targets": [
+      104.3,
+      1.6,
+      26.1,
+      0.4,
+      4.8
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\fruit_bowl\\fruit_bowl_003.jpg",
+    "food_class": "fruit_bowl",
+    "class_idx": 8,
+    "portion_grams": 202.2,
+    "targets": [
+      105.1,
+      1.6,
+      26.3,
+      0.4,
+      4.9
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\fruit_bowl\\fruit_bowl_004.jpg",
+    "food_class": "fruit_bowl",
+    "class_idx": 8,
+    "portion_grams": 209.0,
+    "targets": [
+      108.7,
+      1.7,
+      27.2,
+      0.4,
+      5.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\fruit_bowl\\fruit_bowl_005.jpg",
+    "food_class": "fruit_bowl",
+    "class_idx": 8,
+    "portion_grams": 166.9,
+    "targets": [
+      86.8,
+      1.3,
+      21.7,
+      0.3,
+      4.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\fruit_bowl\\fruit_bowl_006.jpg",
+    "food_class": "fruit_bowl",
+    "class_idx": 8,
+    "portion_grams": 197.0,
+    "targets": [
+      102.5,
+      1.6,
+      25.6,
+      0.4,
+      4.7
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\french_fries\\french_fries_001.jpg",
+    "food_class": "french_fries",
+    "class_idx": 9,
+    "portion_grams": 119.3,
+    "targets": [
+      372.2,
+      4.1,
+      48.9,
+      17.9,
+      4.5
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\french_fries\\french_fries_002.jpg",
+    "food_class": "french_fries",
+    "class_idx": 9,
+    "portion_grams": 139.9,
+    "targets": [
+      436.4,
+      4.8,
+      57.4,
+      21.0,
+      5.3
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\french_fries\\french_fries_003.jpg",
+    "food_class": "french_fries",
+    "class_idx": 9,
+    "portion_grams": 122.1,
+    "targets": [
+      380.9,
+      4.2,
+      50.1,
+      18.3,
+      4.6
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\french_fries\\french_fries_004.jpg",
+    "food_class": "french_fries",
+    "class_idx": 9,
+    "portion_grams": 140.7,
+    "targets": [
+      439.1,
+      4.8,
+      57.7,
+      21.1,
+      5.3
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\french_fries\\french_fries_005.jpg",
+    "food_class": "french_fries",
+    "class_idx": 9,
+    "portion_grams": 108.2,
+    "targets": [
+      337.6,
+      3.7,
+      44.4,
+      16.2,
+      4.1
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\french_fries\\french_fries_006.jpg",
+    "food_class": "french_fries",
+    "class_idx": 9,
+    "portion_grams": 121.7,
+    "targets": [
+      379.6,
+      4.1,
+      49.9,
+      18.3,
+      4.6
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\oatmeal\\oatmeal_001.jpg",
+    "food_class": "oatmeal",
+    "class_idx": 10,
+    "portion_grams": 196.7,
+    "targets": [
+      147.5,
+      6.3,
+      26.6,
+      3.5,
+      3.9
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\oatmeal\\oatmeal_002.jpg",
+    "food_class": "oatmeal",
+    "class_idx": 10,
+    "portion_grams": 284.2,
+    "targets": [
+      213.2,
+      9.1,
+      38.4,
+      5.1,
+      5.7
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\oatmeal\\oatmeal_003.jpg",
+    "food_class": "oatmeal",
+    "class_idx": 10,
+    "portion_grams": 269.7,
+    "targets": [
+      202.3,
+      8.6,
+      36.4,
+      4.9,
+      5.4
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\oatmeal\\oatmeal_004.jpg",
+    "food_class": "oatmeal",
+    "class_idx": 10,
+    "portion_grams": 304.3,
+    "targets": [
+      228.2,
+      9.7,
+      41.1,
+      5.5,
+      6.1
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\oatmeal\\oatmeal_005.jpg",
+    "food_class": "oatmeal",
+    "class_idx": 10,
+    "portion_grams": 270.7,
+    "targets": [
+      203.0,
+      8.7,
+      36.5,
+      4.9,
+      5.4
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\oatmeal\\oatmeal_006.jpg",
+    "food_class": "oatmeal",
+    "class_idx": 10,
+    "portion_grams": 219.3,
+    "targets": [
+      164.5,
+      7.0,
+      29.6,
+      3.9,
+      4.4
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sandwich\\sandwich_001.jpg",
+    "food_class": "sandwich",
+    "class_idx": 11,
+    "portion_grams": 255.9,
+    "targets": [
+      499.1,
+      26.9,
+      53.7,
+      19.2,
+      5.1
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sandwich\\sandwich_002.jpg",
+    "food_class": "sandwich",
+    "class_idx": 11,
+    "portion_grams": 181.3,
+    "targets": [
+      353.5,
+      19.0,
+      38.1,
+      13.6,
+      3.6
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sandwich\\sandwich_003.jpg",
+    "food_class": "sandwich",
+    "class_idx": 11,
+    "portion_grams": 255.6,
+    "targets": [
+      498.5,
+      26.8,
+      53.7,
+      19.2,
+      5.1
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sandwich\\sandwich_004.jpg",
+    "food_class": "sandwich",
+    "class_idx": 11,
+    "portion_grams": 251.8,
+    "targets": [
+      491.1,
+      26.4,
+      52.9,
+      18.9,
+      5.0
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sandwich\\sandwich_005.jpg",
+    "food_class": "sandwich",
+    "class_idx": 11,
+    "portion_grams": 246.9,
+    "targets": [
+      481.5,
+      25.9,
+      51.8,
+      18.5,
+      4.9
+    ]
+  },
+  {
+    "image_path": "C:\\Users\\mones\\.gemini\\antigravity\\scratch\\calorie_estimation_system\\sample_data\\sandwich\\sandwich_006.jpg",
+    "food_class": "sandwich",
+    "class_idx": 11,
+    "portion_grams": 154.4,
+    "targets": [
+      301.1,
+      16.2,
+      32.4,
+      11.6,
+      3.1
+    ]
+  }
+]
